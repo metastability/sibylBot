@@ -2,7 +2,7 @@
 # decide, roll bot
 # built using rirc
 
-require_relative 'rirc.rb' # this line must be at the top of the file
+require 'rirc' # this line must be at the top of the file
 require 'net/http'
 require 'optparse'
 require 'open-uri'
